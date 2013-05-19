@@ -1,0 +1,23 @@
+.heading-unit {
+	background: url(../img/DSC00876.png);
+	padding: 60px;
+	margin-bottom: 30px;
+	font-size: 18px;
+	font-weight: 200;
+}
+
+.carousel-caption {
+	background: rgba(0, 16, 87, 0.75);
+}
+
+.carousel-caption h1 {
+	color: white;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+a {
+	color: rgb(0, 16, 87);
+}
