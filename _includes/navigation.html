@@ -1,13 +1,11 @@
-<nav class="navbar navbar-default navbar-static-top">
-  <div class="navbar-inner">
-    <ul class="nav navbar-nav">
-      {% for link in site.navigation %}
-        {% assign active = nil %}
-        {% if page.url == link.url or page.url == link.alias_url %}
-          {% assign active = 'active' %}
-        {% endif %}
-        <li class="{{ active }}"><a href="{{ link.url }}">{{ link.text }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
+<nav class="navbar navbar-inverse navbar-static-top">
+  <ul class="nav navbar-nav">
+    {% for link in site.navigation %}
+      {% assign active = nil %}
+      {% if page.url == link.url or page.url == link.alias_url %}
+        {% assign active = 'active' %}
+      {% endif %}
+      <li class="{{ active }}"><a href="{{ link.url }}">{{ link.text }}</a></li>
+    {% endfor %}
+  </ul>
 </nav>
