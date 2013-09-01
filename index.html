@@ -1,84 +1,22 @@
-<!DOCTYPE html>
-<html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Spanish Teacher - Wellington</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+---
+layout: default
+title: Spanish Teacher - Wellington
+---
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/main.css">
+{% include header.html image_url="/img/DSC00876.png" %}
 
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    </head>
-    <body>
-        <div class="container">
-
-            <div id="headerImages" class="carousel slide">
-              <div class="carousel-inner">
-                <div class="active item">
-                  <img src="img/DSC00876.png" />
-                  <div class="carousel-caption text-center">
-                    <h1>Spanish Tuition Wellington</h1>
-                    <p>The best School a dynamic Spanish Native Speaker teacher with over 25 years experience teaching Spanish to adults and children with our accelerated learning methods,  in the whole  Wellington area, New Zealand.</p>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <img src="img/DSC01043.png" />
-                  <div class="carousel-caption text-center">
-                    <h1>Spanish Tuition Wellington</h1>
-                    <p>Learn Spanish with our accelerated learning methods, a solution for people seeking  the best  individualized, short-term Spanish program.<br/><br/></p>
-                  </div>
-                </div>
-              </div>
-
-              <a class="carousel-control left" href="#headerImages" data-slide="prev">&lsaquo;</a>
-              <a class="carousel-control right" href="#headerImages" data-slide="next">&rsaquo;</a>
-            </div>
-
-            <div class="row">
-                <div class="span4">
-                    <h2>Spanish A+</h2>
-                    <p class="text-justify">We offer you to practice our best  Personalized programs, with the top methods for successful learning in a short time.</p>
-                    <p class="text-justify">A course planned for Spanish Language learners to progress from an initial basic level to an intermediate level in 3 months, in the whole of Wellington area.</p>
-                </div>
-                <div class="span4">
-                    <h2>Translator &amp; Interpreter</h2>
-                    <p class="text-justify">Provides language facilitation services of Interpreter  & Translation specialized in Spanish. A highly technical interpreter and translator, who is professionally trained and know the ethical standards and confidentiality practices of our profession. 25 years experience.</p>
-               </div>
-                <div class="span4">
-                  <h2>Contact</h2>
-                  <dl>
-                    <dt>Phone</dt>
-                    <dd><b><a href="tel:6449715797">(+64-4) 971 57 97</a></b></dd>
-                    <dd><b><a href="tel:6421715797">(+64) 021 71 57 97</a></b></dd>
-                    <dt>Email</dt>
-                    <dd><a href="mailto:spanishtuitionwellington@gmail.com">SpanishTuitionWellington@gmail.com</a></dd>
-                  </dl>
-                </div>
-            </div>
-
-            <hr>
-
-            <footer>
-                <p>&copy; Spanish Tuition Wellington 2013</p>
-            </footer>
-
-        </div> <!-- /container -->
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-
-        <script src="js/vendor/bootstrap.min.js"></script>
-
-        <script src="js/main.js"></script>
-        <script>
-            var _gaq=[['_setAccount','UA-41070017-1'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </body>
-</html>
+<div class="row">
+  <div class="col-md-4">
+    <h2>Spanish A+</h2>
+    <p class="text-justify"><i>¡Hola!</i> Would you like to learn Spanish in a very short time? And speak it right from the start?</p>
+    <p class="text-justify">I am a native Spanish speaker and I offer personalised courses in the Wellington area. My courses are designed to take learners from an initial basic level to intermediate level within 3 months, and to give advanced learners practice with Spanish conversation.</p>
+  </div>
+  <div class="col-md-4 text-center">
+    <h2>Teacher</h2>
+    <h3>Translator</h3>
+    <h3>Interpreter</h3>
+  </div>
+  <div class="col-md-4">
+    {% include contact.html %}
+  </div>
+</div>

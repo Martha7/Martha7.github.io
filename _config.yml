@@ -1,0 +1,12 @@
+name: Spanish Teacher - Wellington
+markdown: redcarpet
+pygments: true
+
+navigation:
+- text: Home
+  url: /
+  alias_url: /index.html
+- text: About Me
+  url: /about_me.html
+- text: About learning Spanish
+  url: /about_spanish.html
