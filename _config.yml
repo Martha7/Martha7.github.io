@@ -10,3 +10,5 @@ navigation:
   url: /about_me.html
 - text: About learning Spanish
   url: /about_spanish.html
+- text: About Translating & Interpreting
+  url: /about_translating.html
