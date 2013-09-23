@@ -6,9 +6,9 @@ image_url: /img/DSC00876.png
 
 ## About Translating and Interpreting
 
-I have interpreted for several overseas delegations, dignataries, presidents and prime ministers. 
+I have interpreted for several overseas delegations, dignataries, Presidents and Prime Ministers. 
 
-I was privileged to interpret for the presedents of:
+I was privileged to interpret for the Presedents of:
 
 * México
 * Chile
