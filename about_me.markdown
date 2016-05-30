@@ -1,5 +1,5 @@
 ---
-layout: two_column
+layout: about_me
 title: Spanish Teacher - Wellington
 image_url: /img/DSC01043.png
 ---
@@ -21,3 +21,4 @@ I love teaching Spanish and like it to be fun!
 > _¡Gozo que mis estudiantes aprendan español!_
 >
 > _¡Es divertido!_
+

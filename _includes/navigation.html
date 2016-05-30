@@ -1,11 +1,13 @@
-<nav class="navbar navbar-inverse navbar-static-top">
-  <ul class="nav navbar-nav">
-    {% for link in site.navigation %}
-      {% assign active = nil %}
-      {% if page.url == link.url or page.url == link.alias_url %}
-        {% assign active = 'active' %}
-      {% endif %}
-      <li class="{{ active }}"><a href="{{ link.url }}">{{ link.text }}</a></li>
-    {% endfor %}
-  </ul>
+<nav class="light-blue lighten-1">
+  <div class="nav-wrapper container">
+    <ul id="nav-mobile">
+      {% for link in site.navigation %}
+        {% assign active = nil %}
+        {% if page.url == link.url or page.url == link.alias_url %}
+          {% assign active = 'active' %}
+        {% endif %}
+        <li class="{{ active }}"><a href="{{ link.url }}">{{ link.text }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
 </nav>

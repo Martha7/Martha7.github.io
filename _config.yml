@@ -1,6 +1,6 @@
-name: Spanish Teacher - Wellington
+name: Spanish Tuition Wellington
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 
 navigation:
 - text: Home

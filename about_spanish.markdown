@@ -1,7 +1,7 @@
 ---
 layout: two_column
 title: Spanish Teacher - Wellington
-image_url: /img/DSC00876.png
+image_url: /img/DSC00893.png
 ---
 
 ## About learning Spanish

@@ -1,14 +1,14 @@
 ---
 layout: two_column
 title: Spanish Teacher - Wellington
-image_url: /img/DSC00876.png
+image_url: /img/DSCF0289.png
 ---
 
 ## About Translating and Interpreting
 
-I have interpreted for several overseas delegations, dignataries, Presidents and Prime Ministers. 
+I have interpreted for several overseas delegations, dignitaries, Presidents and Prime Ministers. 
 
-I was privileged to interpret for the Presedents of:
+I was privileged to interpret for the Presidents of:
 
 * México
 * Chile
